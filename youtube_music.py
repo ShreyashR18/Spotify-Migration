@@ -7,7 +7,7 @@ ytmusic = YTMusic("oauth.json")
 #Create a playlist with the songs provided from Spotify Playlist
 def create_playlist(song_list):
     #Creates a blank playlist
-    playlistId = ytmusic.create_playlist("Spotify playlist New", "Created using the API")
+    playlistId = ytmusic.create_playlist("Spotify playlist", "Created using the API")
     unavailable_songs = 0
     for song in tqdm(song_list, desc="Adding songs to playlist", unit="song"):
         search_results = ytmusic.search(song)
