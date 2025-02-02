@@ -1,19 +1,30 @@
-# Spotify-Migration
-Created a program to export a playlist from Spotify to Youtube Music
+# **Spotify to YouTube Music Migration**
 
+This program allows you to seamlessly transfer your playlists from Spotify to YouTube Music.
 
-The following are the steps to follow -
+## **How It Works**
 
-1. Select rub.cmd, browser window will open up. Select the google account for which you want to create playlist.
+Follow these steps to migrate your playlist:
 
-2. Selct Enter once the account is selcted
+1. **Run the Script**  
+   - Execute `run.cmd`. A browser window will open, prompting you to select the Google account where you want to create the playlist.
 
-3. Another browser window will open but thios time it will ask to grant access to your spotify.
+2. **Confirm Account Selection**  
+   - Once you have selected your Google account, press **Enter** to proceed.
 
-4. After granting access, all the playlist present in the spotify will be shown.
+3. **Authorize Spotify Access**  
+   - A second browser window will open, requesting permission to access your Spotify account. Grant the required permissions to continue.
 
-5. Select your playlist which you want to export to youtube music.
+4. **View Your Spotify Playlists**  
+   - After authentication, all available Spotify playlists will be displayed.
 
-6. The progress bar will show the progress of the playlist creation.
+5. **Select a Playlist**  
+   - Choose the playlist you wish to export to YouTube Music.
 
-7. After completion it will show if any song which it was unable to add into playlist, otherwise congratulation you have successfully exported the playlist to Youtube Music
+6. **Monitor the Transfer Process**  
+   - A progress bar will indicate the status of the playlist migration.
+
+7. **Completion & Review**  
+   - Once the transfer is complete, a summary will be displayed. If any songs could not be added, they will be listed. Otherwise, your playlist has been successfully migrated to YouTube Music.
+
+Enjoy your music on YouTube Music!
